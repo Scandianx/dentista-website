@@ -167,6 +167,57 @@
   font-size: 1.2rem;
   
 }
+.avaliacao-section {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: #fefefe; /* ou a cor clara da sua paleta */
+}
+
+.avaliacao-texto {
+  width: 60%;
+  background-color: #fefefe; /* mesma cor do reader */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+}
+
+.avaliacao-texto h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.avaliacao-texto p {
+  max-width: 80%;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.avaliacao-botoes {
+  display: flex;
+  gap: 1rem;
+}
+
+.avaliacao-botoes button {
+  padding: 0.75rem 1.5rem;
+  background-color: white;
+  border: 2px solid #ccc;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.avaliacao-botoes button:hover {
+  background-color: #eee;
+}
+
+.avaliacao-imagem {
+  width: 40%;
+  background-image: url('assets/womansmiling.png');
+  background-size: cover;
+  background-position: center;
+}
 
 
 
